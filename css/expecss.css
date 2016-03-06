@@ -1,0 +1,638 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+    text-decoration: none;
+    font-family: microsoft Yahei;
+}
+
+
+
+body
+{
+    background-color: #EFEFE3;
+}
+
+#totop
+{
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+    width:58.4px; 
+    height:62.4px;
+    cursor: pointer;
+}
+
+.container
+{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*这里是头部导航*/
+
+.header-nav
+{
+    height: 32px;
+    background: #F54B3C;
+    border-bottom: 1px solid #CE2C24;
+}
+
+.header-nav ul
+{
+    display: inline-block;
+    min-width: 100px;
+    width: 960px;
+    line-height: 32px;
+    float: right;
+    overflow: hidden;
+}
+
+.header-nav ul li
+{
+    overflow: hidden;
+    float: left;
+    display: inline-block;
+    min-width: 80px;
+    width: 157px;
+    text-align: center;
+    border-left: 1px solid #CE2C24;
+    border-right: 1px solid #CE2C24;
+}
+
+.header-nav ul li a
+{
+	text-decoration: none;
+	font-size: 14px;
+	color: #fff;
+    display: block;
+}
+
+.header-nav ul li:hover
+{
+    background-color: #A01A13;
+}
+/**/
+
+#bigtitle
+{
+    position: relative;
+    height: 560px;
+}
+#bigtitle img
+{
+    position: relative;
+    top: -170px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 10px;
+    display: block;
+    z-index: -2;
+    height: 914.2px;
+    width: 954.1px;
+}
+/*下边是第一屏*/
+
+/*第一屏幕主导航*/
+.nav1
+{
+    text-align: center;
+}
+.nav1 ul
+{
+	overflow: hidden;
+	list-style-type: none;
+	height: 90px;
+	text-align: center;
+}
+
+.nav1 ul li
+{
+	background-color: #FF5700;
+	float: left;
+    display: block;
+    width: 170px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 7.5px;
+    margin: 0px 3px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #0f2a7f;
+}
+.nav1 ul li:hover
+{
+    background-color: #A01A13;
+}
+.nav1 ul li a
+{
+	display: block;
+	text-decoration: none;
+	font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/*第一屏幕大标题*/
+
+.foc
+{
+	width: 100%;
+    min-width: 950px;
+    text-align: center;
+}
+
+
+.foc2
+{
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.foc2-left
+{
+    float: left;
+    width: 350px;
+    position: relative;
+    text-align: center;
+}
+
+.foc2-left ul li
+{
+    padding-bottom: 22px;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.foc2-left ul li a
+{
+    color: #000;
+    text-decoration: none;
+}
+
+
+/*这里是banner*/
+.foc2-right
+{
+    float: right;
+    width: 580px;
+    height: 360px;
+    position: relative;
+}
+
+.ban1
+{
+    width:100%;
+    height: 100%;
+    margin:auto;
+    overflow:hidden;
+    position:relative;
+}
+
+.ban1 ul
+{
+    position:absolute;
+}
+
+.ban1 ul li
+{
+    list-style-type:none;
+    float:left;
+    display:block;
+}
+.ban1 .arrow
+{
+    position: absolute;
+    z-index: 999;
+    width: 40px;
+    display: block;
+    padding-top: 25%;
+    padding-bottom: 25%;
+    cursor: pointer;
+    opacity: 0.2;
+}
+.ban1 #arrow1
+{
+    left: 0px;
+}
+.ban1 #arrow2
+{
+    right: 0px;
+}
+
+.ban1 .btn
+{
+    opacity:0.5;
+    width:580px;
+    height:20px;
+    background:#676767;
+    position:absolute;
+    bottom:0px;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ban1 .btn span
+{
+    opacity:0.7;
+    background:#FFFFFF;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    cursor:pointer;
+    display:inline-block;
+    margin-left: 10px;
+}
+
+/*这里是第二屏幕*/
+
+.title-2nd
+{
+    height: 250px;
+    text-align: center;
+}
+.title-2nd img
+{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -2;
+    top: -100px;
+    width: 459.2px;  
+    height: 439.6px;   /*高656，宽628，0.7倍*/
+}
+
+
+.scr2
+{
+   
+}
+
+.vd
+{
+    width: 960px;
+    height: 534px;
+}
+.vd video
+{
+    width: 960px;
+    height: 534px;
+}
+
+/*这里是第二屏幕下的banner*/
+.bless
+{
+    width: 100%;
+    height: 130px;
+    margin-top: 60px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border:1px solid #FF5700;
+    overflow: hidden;
+}
+
+.zhufu
+{
+    width: 168.8px;
+    height: 108.8px;
+    margin-left: 32px;
+}
+.cehua
+{
+    width: 700px;
+    height: 150px;
+    float: right;
+    position: relative;
+    margin-right: 20px;
+}
+.ban2
+{
+    width:630px;
+    height:150px;
+    margin:auto;
+    overflow:hidden;
+    position:relative;
+    margin-left: 35px;
+}
+
+.ban2 ul
+{
+    position:absolute;
+    width: 630px;
+}
+
+.ban2 ul li
+{
+    list-style-type:none;
+    float:left;
+    display:block;
+    width: 200px;
+    margin-right: 15px;
+    text-align: center;
+}
+.cehua .arrow
+{
+    position: absolute;
+    z-index: 999;
+    display: block;
+    cursor: pointer;
+    opacity: 0.8;
+    top: 23px;
+}
+.cehua #arrow1
+{
+    left: 0px;
+}
+.cehua #arrow2
+{
+    right: 0px;
+}
+
+/*年度人物*/
+.peryear
+{
+    overflow: hidden;
+    width: 960px;
+}
+.ban3
+{
+    width: 830px;
+    height: 470px;
+    overflow:hidden;
+    position:relative;
+    margin: auto;
+}
+
+.ban3 ul
+{
+    position:absolute;
+    width: 830px;
+}
+
+.ban3 ul li
+{
+    list-style-type:none;
+    float:left;
+    display:inline-block;
+    width: 830px;
+}
+
+.ban3 ul li img
+{
+    float:left;
+    margin-right: 60px;
+}
+
+.peryear .arrow
+{
+    position: relative;
+    z-index: 999;
+    width: 40px;
+    display:block;
+    cursor: pointer;
+    opacity: 0.2;
+}
+.peryear #arrow21
+{
+    left:0px;
+    top: 300px;
+}
+.peryear #arrow22
+{
+    left:915px;
+    bottom: 243px;
+}
+
+/*重磅奖项*/
+
+.awards
+{
+    overflow: hidden;
+    width: 950px;
+}
+
+.awards-left
+{
+    width: 475px;
+    float: left;
+    display: inline-block;
+}
+.awards-left li
+{
+    text-align: left;
+    padding-left: 50px;
+    width: 425px;
+    height: 74px;
+    background: #F54B3C;
+    font-size: 20px;
+    line-height: 74px;
+    margin-bottom: 4px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.awards-left li:hover
+{
+    background-color: #A01A13;
+}
+
+.awards-right
+{
+    display: block;
+    float: left;
+    display: inline-block;
+    padding-top: 40px;
+    margin-left: 45px;
+    width: 430px;
+    height: 300px;
+    overflow: auto;
+
+}
+
+.awards-right div
+{
+
+    display: inline-block;
+    border-bottom: 1px solid #000;
+    margin-bottom: 20px;
+}
+.awards-right p
+{
+    margin-bottom: 20px;
+}
+
+.awards-right  h1,
+.awards-right  h2
+{
+    float: left;
+    clear: right;
+}
+
+.awards-right img
+{
+    float: left;
+    display: inline-block;
+    padding-bottom: 20px;
+    margin-right: 20px;
+}
+
+
+
+/*获奖名单*/
+
+.winlist
+{
+    overflow: hidden;
+    width: 950px;
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top:1px dashed #F54B3C;
+}
+.winlist h1
+{
+    margin-bottom: 18px;
+}
+.win-left
+{
+    width: 475px;
+    float: left;
+    display: inline-block;
+}
+.win-left li
+{
+    text-align: left;
+    padding-left: 50px;
+    width: 425px;
+    height: 74px;
+    background: #F54B3C;
+    font-size: 20px;
+    line-height: 74px;
+    margin-bottom: 4px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.win-left li:hover
+{
+    background-color: #A01A13;
+}
+
+.win-right
+{
+    display: block;
+    position: relative;
+    top:-40px;
+    display: inline-block;
+    margin-left: 40px;
+    width: 430px;
+    height: 450px;
+    overflow: auto;
+
+}
+
+
+.win-right div
+{
+    display: inline-block;
+    border-bottom: 1px solid #000;
+    margin-bottom: 20px;
+}
+.win-right ul
+{
+
+    float: left;
+    display: block;
+}
+.win-right ul li
+{
+    width: 40%;
+    display: inline-block;
+    float: left;
+    margin: 10px 20px;
+    font-size: 15px;
+}
+
+
+/*现场图集*/
+
+.atlas
+{
+    width: 960px;
+    height: 375px;
+}
+
+.atlas img
+{
+    float: left;
+    position: relative;
+    margin-right: 7px;
+}
+
+.tu2
+{
+    width: 164px;
+    height: 143px;
+}
+
+.tu3
+{
+    width: 164px;
+    height: 220px;
+}
+.tu4
+{
+    width: 164px;
+    height: 142px;
+}
+
+.tu5
+{
+    width: 164px;
+    height: 221px;
+}
+
+.tu6
+{
+    width: 401px;
+    height: 259px;
+}
+
+.tu7,.tu8,.tu9
+{
+    width: 129px;
+    height: 104px;
+}
+
+.at
+{
+    display: block;
+    float: left;
+    width: 164px;
+    margin-right: 7px;
+}
+
+
+html,body
+{
+    width:100%;height:100%;margin:0;
+}
+
+#wapper
+{
+    position:relative;
+    min-height:100%;
+}
+
+#foot
+{
+    height:50px;
+    margin:-50px 0 0;
+    vertical-align: center;
+    background-color: #011D2D;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 2px;
+}
